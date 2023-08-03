@@ -1,0 +1,330 @@
+@media (max-width: 1240px) {
+[class*=__container] {
+	max-width: 728px;
+	}
+
+.integration {
+	padding: 111px 0 100px;
+	}
+
+.integration__big-title { 
+ 	margin: 0 0 15px;
+ 	}
+
+.integration__list { 
+	margin: 0 0 30px;
+	}
+
+.title { 
+	margin: 0 0 15px;
+	}
+
+.title br { 
+	display: none;
+	}
+
+.big-title br { 
+	display: none;
+	}
+
+.reason { 
+	padding: 80px 0 0;
+	}
+
+.info { 
+	grid-template-columns: repeat(2, 1fr);
+	gap: 10px 10px;
+	}
+
+.reason__info:before { 
+	width: 131px;
+	height: 245px;
+	top: 113px;
+	right: -20px;
+	background: url(../img/src/reason__info-bg-tablet.png) center no-repeat;
+  	background-size: 100%;
+	}
+
+.reason__info .info__item { 
+	padding: 15px 10px 33px 16px;
+	min-height: auto;
+	}
+
+.reason__info .info__item:nth-child(4) { 
+	position: relative;
+	z-index: 3;
+	}
+
+.info__title { 
+	margin: 0 0 30px;
+	}
+
+.partners { 
+	padding: 80px 0 0;
+	}
+
+.partners__big-title { 
+	margin: 0 0 66px;
+	}
+
+.partners__logo { 
+	padding: 0 38px;
+	height: 166px;
+	}
+
+.partners__logo img { 
+	object-fit: contain;
+	}
+
+
+.advantages {
+	padding: 80px 0;
+	}
+
+.synergy {
+	padding-bottom: 80px;
+	}
+
+.reason.reason_indent-top-none {
+	padding: 0;
+	}
+
+.catalog-info:before {
+	display: none;
+	}
+
+.info-col {
+	grid-template-columns: repeat(1, 1fr);
+	}
+
+}
+
+@media (max-width: 727px) {
+[class*=__container] {
+	padding: 0 10px;
+	max-width: 100%;
+	}
+
+.integration { 
+	padding: 73px 0 82px;
+	}
+
+.integration__big-title { 
+	margin: 0 0 10px;
+	font-size: 30px;
+	line-height: 33px;
+	}
+
+.integration__list li { 
+	margin: 0 0 8px;
+	padding: 0 0 0 18px;
+	font-size: 12px;
+	line-height: 16.8px;
+	}
+
+.integration__list li:before { 
+	top: 8px;
+	left: 7px;
+	}
+
+.integration__btn-panel { 
+	flex-wrap: wrap;
+	gap: 10px 10px;
+	padding: 0;
+	}
+
+.btn { 	
+	padding: 16px 10px;
+	max-width: 300px;
+	min-width: auto;
+	width: 100%;
+	border-radius: 5px;
+	}
+
+.title { 
+	font-size: 22.5px;
+	line-height: 27px;
+	}
+
+.big-title { 
+	margin: 0 0 40px;
+	font-size: 30px;
+	line-height: 33px;
+	}
+
+.reason { 
+	padding: 60px 0 0;
+	}
+
+.reason__big-title { 
+	margin: 0 0 40px;
+	font-size: 30px;
+	line-height: 33px;
+	}
+
+.info { 
+	grid-template-columns: repeat(1, 1fr);
+	}
+
+.reason__info .info__item { 
+	padding: 15px 15px 36px;
+	}
+
+.reason__info:before { 
+	width: 95px;
+	height: 145px;
+	top: 315px;
+	bottom: 100px;
+	right: -10px;
+	background: url(../img/src/reason__info-bg-mobile.png) center no-repeat;
+	background-size: 100%;
+	}
+
+.info__item { 
+	padding: 15px 15px 27px;
+	border-radius: 11px;
+	}
+
+.benefit__info .info__item { 
+	padding-bottom: 27px;
+	}
+
+.info__title { 
+	margin: 0 0 40px;
+	min-height: 54px;
+	}
+
+.info__item p { 
+	font-size: 10.5px;
+	line-height: 14.18px;
+	}
+
+.info__item p br {
+ 	display: none;
+	}
+
+.partners { 
+	padding: 60px 0 0;
+	}
+
+.partners_indent-bt {
+	padding-bottom: 60px;
+	}
+
+.partners__big-title { 
+	margin: 0 0 40px;
+	font-size: 30px;
+	line-height: 36px;
+	}
+
+.partners__logo { 
+	padding: 0 16px;
+	height: 70px;
+	}
+
+.application { 
+	padding: 20px 0;
+	background: url(../img/src/application-bg-mobile.png) right bottom no-repeat #161616;
+	}
+
+.application__big-title { 
+	margin: 0 0 10px;
+	font-size: 25px;
+	line-height: 27.5px;
+	}
+
+p { 
+	margin: 0 0 30px;
+	font-size: 12px;
+	line-height: 16.8px;
+	}
+
+.application p br { 
+	display: none;
+	}
+
+.application__btn { 
+	padding: 12px 10px;
+	font-size: 12px;
+	line-height: 16.8px;
+	}
+
+
+.crm {
+	margin: 0 0 30px;
+	}
+
+.crm__logo {
+	margin: 0 12px 0 0;
+	font-size: 12px;
+	}
+
+.crm__text {
+	font-size: 12px;
+	line-height: 16px;
+	}
+
+.integration p br {
+	display: none;
+	}
+
+.catalog-info {
+	grid-template-columns: repeat(1, 1fr);
+	}
+
+.catalog-info__item {
+	padding: 15px;
+	}
+
+.catalog-info__item p br {
+	display: none;
+	}
+
+.catalog-info__item p {
+	font-size: 10.5px;
+	line-height: 14.18px;
+	}
+
+.synergy {
+	background: none;
+	}
+
+.info-col__item {
+	padding: 15px;
+	border-radius: 5px;
+	}
+
+.info-col__title {
+	font-size: 22.5px;
+	line-height: 27px;
+	}
+
+.info-col__list li {
+	padding: 15px 0 15px 36px;
+	font-size: 14px;
+	line-height: 22px;
+	}
+
+.info-col__list li:last-child { 
+	border-bottom: 0;
+	}
+
+.info-col__list li br { 
+	display: none;
+	}
+
+.advantages {
+	padding: 60px 0;
+	}
+
+.synergy {
+	padding-bottom: 60px;
+	}
+
+}
+
+@media (max-width: 726px) {
+.integration__btn { 
+	max-width: 100%;
+	}
+}
