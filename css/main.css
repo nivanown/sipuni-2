@@ -222,11 +222,15 @@ body {
   }
 
 .integration_changed {
+  display: flex;
+  align-items: center;
   padding: 185px 0 180px;
+  height: 100vh;
   }
 
 .integration_dec-two {
   background: url(../img/src/integration-img2.jpg) center no-repeat #060606;
+  background-size: cover;
   }
 
 /* rating */
@@ -511,7 +515,7 @@ body {
 
 /* partners */
 .partners { 
-  padding: 148px 0 0;
+  padding: 134px 0 0;
   }
 
 .partners_indent-bt {
